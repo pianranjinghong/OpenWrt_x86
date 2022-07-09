@@ -73,3 +73,4 @@ if [ -f sdk.tar.xz ]; then
 	ln -sf /usr/bin/python3 staging_dir/host/bin/python3
 fi
 ) &
+ rm -rf ./feeds/kiddin9/my-default-settings/files/usr
